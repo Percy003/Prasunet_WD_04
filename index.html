@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Personal portfolio website</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                <img src="images/prashantImage.jpg" alt="logo">
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="#fs">Home</a></li>
+                    <li><a href="#ss">About</a></li>
+                    <li><a href="#ts">Projects</a></li>
+                    <li><a href="#fs">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection" id="fs">
+            <div class="leftSection">
+                Hi,my name is <span id="name">Prashant</span>
+                <div>and I am a passionate</div>
+                <div>Web Developer</div>
+            </div>
+            <div class="rightSection">
+                <img src="images/boyImage.jpg" alt="boy">
+            </div>
+        </section>
+<!-- ----------------about---------------- -->
+        <section class="secondSection" id="ss">
+            <div id="about">
+                <div class="aboutLeft">
+                    <h1>About me</h1>
+                </div>
+                <div class="aboutRight">
+                    <div class="titles">
+                        <p class="subTitles">Skills</p>
+                        <p class="subTitles" id="education">Education</p>
+                    </div>
+                    <div class="data">
+                        <div class="content">
+                            <ul>
+                                <li>c++</li>
+                                <li>html</li>
+                                <li>css</li>
+                                <li>javaScript</li>
+                            </ul>
+                        </div>
+                        <div class="Econtent">
+                            <ul>
+                                <li><span class="font">Class 10 : </span>St. Mary's convent school,Uttarakhand, 89%</li>
+                                <li><span class="font">Calss 12 : </span>Army Public School,Uttarakhand,65.5%(PCM with
+                                    cs)</li>
+                                <li><span class="font">College : </span>Graphic Era University,Uttarakhand,80.6%(B.Tech
+                                    CSE)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+<!-- ----------------Projects---------------- -->
+        <section class="thirdSection " id="ts">
+            <div class="container">
+                <h1 class="subTitle">My Work</h1>
+                <div class="worklist">
+                    <div class="work">
+                        <img src="images/work-1.png" alt="">
+                        <div class="layer">
+                            <h3>Menu navigation bar</h3>
+                            <p>this a model of how navigation works</p>
+                            <a href="#">link</a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-2.png" alt="">
+                        <div class="layer">
+                            <h3>Stopwatch</h3>
+                            <p>Build a stop watch with features like start,pause,restart and storing lap time </p>
+                            <a href="#">link</a>
+                        </div>
+                    </div><div class="work">
+                        <img src="images/work-3.png" alt="">
+                        <div class="layer">
+                            <h3>Tic Tac Toe</h3>
+                            <p>Build a website where u can play with a player or an ai</p>
+                            <a href="#">link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- -----------------contact me-------------- -->
+        <section class="fourthSection" id="fs">
+            <div class="container">
+            <div class="row">
+                <div class="contactLeft">
+                    <h1 class="subTitle">Contact me</h1>
+                    <p>percy8065@gmail.com</p>
+                    <p>7454093448</p>
+                </div>
+                <div class="contactRight">
+                    <form >
+                        <input type="text" name="name" placeholder="Your Name">
+                        <input type="email" name="email" placeholder="Your Email">
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Sumbit</button>
+                    </form>
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
